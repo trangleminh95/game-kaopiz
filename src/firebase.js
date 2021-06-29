@@ -2,6 +2,16 @@ import firebase from "firebase/app";
 import "firebase/firestore";
 
 // firebase init - add your own config here
+// const firebaseConfig = {
+//   apiKey: process.env.API_KEY,
+//   authDomain: process.env.AUTH_DOMAIN,
+//   databaseURL: process.env.DB_URL,
+//   projectId: process.env.PJ_ID,
+//   storageBucket: process.env.STORAGE_BUCKET,
+//   messagingSenderId: process.env.SENDER_ID,
+//   appId: process.env.APP_ID,
+//   measurementId: process.env.MEASUREMENT_ID
+// };
 const firebaseConfig = {
   apiKey: "AIzaSyB69V1E-w5AJgN6ZOlfQx74ojheIXswxcI",
   authDomain: "ice-cream-bc.firebaseapp.com",
@@ -13,6 +23,7 @@ const firebaseConfig = {
   appId: "1:306653750068:web:a71320c9bba003deb63b61",
   measurementId: "G-HL4RJ9KMK5"
 };
+
 firebase.initializeApp(firebaseConfig);
 
 // utils
